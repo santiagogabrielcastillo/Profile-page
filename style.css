@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@400;700;900&display=swap');
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  color: #697268;
+}
+
+h1 {
+  color: #0d0630;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 33px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+h3 {
+  color: #07393c;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #f0edee;
+  font-weight: bold;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: white;
+  border: 1px #f0edee;
+  padding: 15px 25px;
+  margin: 30px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-big {
+  height: 430px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  background-color: #364bc2;
+  border: #364bc2;
+  padding: 10px;
+  margin: 0 auto;
+  width: 175px;
+  border-radius: 15px;
+}
+
+.button:hover {
+  background-color: #000;
+  width: 200px;
+  height: 35px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #364bc2;
+}
+
+.list-inline i:hover {
+  color: #000;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .card-big {
+    height: 600px;
+  }
+}
