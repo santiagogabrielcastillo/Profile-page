@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@400;700;900&display=swap');
 
 body {
-  background-color: #9eb7dd;
+  background-color: #8195C9;
   font-family: 'Lora', serif;
   font-size: 17px;
   color: #697268;
@@ -41,6 +41,7 @@ a {
 .card-white {
   background-color: white;
   border: 1px #f0edee;
+  border-radius: 10px;
   padding: 15px 25px;
   margin: 30px;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
@@ -67,6 +68,7 @@ a {
   background-color: #000;
   width: 200px;
   height: 35px;
+  line-height: 35px;
 }
 
 .list-inline {
