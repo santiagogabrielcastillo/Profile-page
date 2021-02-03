@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@400;700;900&display=swap');
 
 body {
-  background-color: #668ec9;
+  background: linear-gradient(70deg, #668ec9, white);
   font-family: 'Lora', serif;
   font-size: 17px;
   color: #697268;
